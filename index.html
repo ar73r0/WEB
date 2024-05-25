@@ -6,6 +6,11 @@
     <title>PORTFOLIO</title>
 </head>
 <body>
+
+    <div id="loadOverlay" class="overlay">
+        <div class="spinner"></div>
+    </div>
+
     <header>
         <ul>
             <li id="home"></li>
@@ -14,10 +19,19 @@
         </ul>
     </header>
 
-    <form action="">
-        <input type="text" name="name" id="name">
-        <input type="button" value="submit">
+    <form name="ValForm" onsubmit="return validateForm()">
+        <label for="choice">Select your choice</label>
+        <select name="choice" id="choice">
+            <option value="">Choose</option>
+            <option value="False">False</option>
+            <option value="False">False</option>
+            <option value="Correct">Correct</option>
+        </select>
+        <input type="submit" value="submit">
     </form>
+
+    <section class="grid-container">
+    </section>
 </body>
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
