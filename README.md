@@ -3,6 +3,8 @@
 # Portfolio - Tentenverhuur Webapplicatie
 
 Deze webapplicatie is ontwikkeld als portfolio voor het vak web advanced. Het toont mijn kennis en toepassing van verschillende JavaScript en web development concepten.
+(mijn excuses meneer ik was vergeten tijdens het maken van de site te comitten)
+
 
 ## Overzicht van Onderwerpen
 
