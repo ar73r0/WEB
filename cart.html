@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winkelwagen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Winkelwagen</h1>
+        <a href="index.html"><button>Terug naar Tent Verhuur</button></a>
+    </header>
+
+    <main>
+        <div id="cart-items" class="container">
+            <!-- dynamische items -->
+        </div>
+        <p id="total-price"></p>
+        <button id="clear-cart">Verwijder alle items</button>
+    
+        <section id="booking-sectie">
+            <h2>Boekingsformulier</h2>
+            <form id="booking-form" onsubmit="return validateForm()">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="startdatum">Startdatum:</label>
+                <input type="date" id="startdatum" name="startdatum" required>
+                
+                <label for="einddatum">Einddatum:</label>
+                <input type="date" id="einddatum" name="einddatum" required>
+                
+                <button type="submit">Boek Nu</button>
+            </form>
+        </section>
+    </main>
+    
+    <script src="js/cart.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Tentenverhuur. Alle rechten voorbehouden.</p>
+</footer>
+</html>

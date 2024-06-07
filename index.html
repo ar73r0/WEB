@@ -1,38 +1,32 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Tentenverhuur</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <div id="loadOverlay" class="overlay">
-        <div class="spinner"></div>
-    </div>
-
     <header>
-        <ul>
-            <li id="home"></li>
-            <li> extra </li>
-            <li> extra </li>
-        </ul>
+        <h1>Tentenverhuur</h1>
+        <a href="cart.html"><button id="go-to-cart">Ga naar winkelwagen</button></a>
     </header>
 
-    <form name="ValForm" onsubmit="return validateForm()">
-        <label for="choice">Select your choice</label>
-        <select name="choice" id="choice">
-            <option value="">Choose</option>
-            <option value="False">False</option>
-            <option value="False">False</option>
-            <option value="Correct">Correct</option>
-        </select>
-        <input type="submit" value="submit">
-    </form>
+    <main>
+        <section id="tenten-sectie">
+            <h2>Beschikbare Tenten</h2>
+            <div id="tents-container" class="container">
+                <!-- Dynamisch gegenereerde tenten -->
+            </div>
+        </section>
+    </main>
 
-    <section class="grid-container">
-    </section>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/iife.js"></script>
 </body>
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<footer>
+    <p>&copy; 2024 Tentenverhuur. Alle rechten voorbehouden.</p>
+</footer>
 </html>
