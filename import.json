@@ -1,0 +1,7 @@
+{
+    "tents":[
+        { "id": 1, "name": "Kleine Tent", "price": 50, "image": "tentenverhuur-api/images/kleinetent.jpg" },
+        { "id": 2, "name": "Medium Tent", "price": 75, "image": "tentenverhuur-api/images/mediumtent.jpg" },
+        { "id": 3, "name": "Grote Tent", "price": 100, "image": "tentenverhuur-api/images/grotetent.jpg" }
+    ]
+}
