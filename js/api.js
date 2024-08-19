@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 async function fetchTents() {
     try {
@@ -6,6 +6,8 @@ async function fetchTents() {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Fout bij het ophalen van tentgegevens:', error);
+        console.error('Error fetching tent data:', error);
     }
 }
+
+

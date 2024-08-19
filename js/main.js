@@ -44,3 +44,5 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Tent toegevoegd aan winkelwagen!');
     }
 });
+
+
